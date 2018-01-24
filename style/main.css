@@ -1,0 +1,356 @@
+/*-------------------------------------------*/
+/*-------------------RESET-------------------*/
+/*-------------------------------------------*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*-------------------------------------------*/
+/*-------------------RESET-------------------*/
+/*-------------------------------------------*/
+.overflow									{ overflow: hidden; }
+.align-c									{ text-align: center; }
+
+/*-------------------------------------------*/
+/*------------------WRAPPER------------------*/
+/*-------------------------------------------*/
+.bg-blue {
+	background: #3498db;
+}
+
+.content {
+	margin: 0 auto;
+	position: relative;
+	width: 1170px;
+}
+
+/*-------------------------------------------*/
+/*-------------------HEADER------------------*/
+/*-------------------------------------------*/
+.header {
+	overflow: hidden;
+	padding: 55px 0 0 0;
+}
+
+.logo {
+	float: left;
+	height: 35px;
+	width: 150px;
+}
+
+.btn-menu {
+	background: url(../img/Menu.png) no-repeat;
+	border: 0;
+	cursor: pointer;
+	float: right;
+	height: 31px;
+	text-indent: -9999px;
+	width: 42px;
+}
+
+.header .big-text,
+.header .medium-text {
+	color: #fff;
+	display: block;
+	font-family: Arial;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.header .big-text {
+	font-size: 86px;
+	margin: 230px 0 40px 0;
+}
+
+.header .medium-text {
+	font-size: 60px;
+	margin-bottom: 170px;
+}
+
+/*-------------------------------------------*/
+/*------------------CONTENT------------------*/
+/*-------------------------------------------*/
+
+.header-section, .project-section {
+	color: #2c3e50;
+	font-size: 40px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.header-section:after {
+	background: url(../img/x.png) no-repeat;
+	content: '';
+	display: block;
+	height: 35px;
+	margin: 30px auto;
+	width: 35px;
+}
+
+.white-box {
+	background: #fff;
+	border-radius: 8px;
+	margin-bottom: 120px;
+	padding: 70px 0;
+	position: relative;
+	text-align: center;
+	width: 1140px;
+}
+
+.white-box p {
+	color: #2c3e50;
+	font-size: 20px;
+	line-height: 1.42;
+	margin: 0 auto 60px;
+	text-transform: uppercase;
+	width: 75%;
+}
+
+.part-bg-blue {
+	position: relative;
+}
+
+.part-bg-blue:before {
+	background: #3498db;
+	content: '';
+	display: block;
+	height: 200px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.btn-blue {
+	background: #3498db;
+	border-radius: 40px;
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	padding: 25px 80px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.list-about-us,
+.list-our-time {
+	padding-bottom: 120px;
+	text-align: center;
+}
+
+.list-about-us li,
+.list-our-time li {
+	display: inline-block;
+	vertical-align: top;
+	width: 325px;
+}
+
+.wrap-img {
+	border-radius: 50%;
+	height: 220px;
+	margin: 0 auto 30px;
+	overflow: hidden;
+	width: 220px;
+}
+
+.wrap-img img {
+	max-height: 220px;
+	max-width: 220px;
+}
+
+.list-about-us .text {
+	color: #2c3e50;
+	font-size: 20px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.bg-green {
+	background: #27ae60;
+	padding: 100px 0 118px 0;
+}
+
+.project-section {
+	color: #fff;
+	text-align: center;
+}
+
+.project-text {
+	color: #2c3e50;
+	font-size: 18px;
+	line-height: 1.42;
+	margin: 0 auto;
+	padding-bottom: 70px;
+	padding-top: 90px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 51%;
+}
+
+.img-slider {
+	max-width: 95%;
+	width: 1506px;
+}
+
+/*-------------------------------------------*/
+/*--------------SECTION .bg-grey-------------*/
+/*-------------------------------------------*/
+.bg-grey {
+	background: #ecf0f1;
+}
+
+.bg-grey-text {
+	font-size: 40px;
+	line-height: 1.42;
+	margin: 0 auto;
+	padding: 95px 0 105px 0;
+	text-transform: uppercase;
+	width: 84%;
+}
+
+.list-block-grey li {
+	background: #fff;
+	border-radius: 10px;
+	display: inline-block;
+	margin: 0 10px 70px;
+	width: 555px;
+}
+
+.grey-padding {
+	padding: 75px 50px;
+}
+
+.list-block-grey p {
+	font-size: 20px;
+	line-height: 1.42;
+	margin-bottom: 60px;
+	text-transform: uppercase;
+}
+
+.disabled-padding {
+	padding-bottom: 30px;
+}
+
+.bg-grey-tag {
+	padding-top: 0;
+}
+
+.our-time-name {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.our-time-description {
+	padding: 30px 0 25px 0;
+}
+
+.list-socials li {
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: middle;
+	width: 34px;
+}
+
+/*-------------------------------------------*/
+/*--------------SECTION .bg-purpl------------*/
+/*-------------------------------------------*/
+.bg-purpl {
+	background: #9b59b6;
+	margin-top: -380px;
+	padding-top: 400px;
+}
+
+.bg-purpl-our {
+	margin-bottom: 80px;
+}
+
+.list-uor-clients {
+	padding-bottom: 100px;
+}
+
+.list-uor-clients li {
+	display: inline-block;
+	margin:  0 50px;
+	vertical-align: middle;
+}
+
+/*-------------------------------------------*/
+/*-------------------FOOTER------------------*/
+/*-------------------------------------------*/
+.footer {
+	background: #2c3e50;
+	height: 150px;
+	width: 100%;
+}
+
+.logo-position {
+	left: 0;
+	position: absolute;
+	top: 60px;
+}
+
+.list-contacts {
+	position: absolute;
+	right: 0;
+	top: 70px;
+}
+
+.list-contacts li {
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	margin-left: 30px;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+
+.list-contacts li:first-child {
+	margin-left: 0;
+}
